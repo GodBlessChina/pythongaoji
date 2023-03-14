@@ -1,0 +1,7 @@
+@echo off
+echo jupyter运行时 不要关闭这个窗口
+echo jupyter运行时 不要关闭这个窗口
+echo jupyter运行时 不要关闭这个窗口
+echo jupyter运行时 不要关闭这个窗口
+echo jupyter运行时 不要关闭这个窗口
+jupyter notebook

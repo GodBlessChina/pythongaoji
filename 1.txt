@@ -1,0 +1,14 @@
+@echo off
+
+echo 别关闭这个窗口，它会自己关闭
+echo 别关闭这个窗口，它会自己关闭
+echo 别关闭这个窗口，它会自己关闭
+
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+
+
+pip install pandas
+pip install requests
+pip install lxml
+pip install openpyxl
+pip install jupyter notebook
