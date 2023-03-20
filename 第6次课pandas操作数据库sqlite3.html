@@ -14,17 +14,13 @@
     </pre>
 
 <pre>
+      将下列数据保存到data.sql文件中，格式为utf-8。
+      使用sqlite3命令执行data.sql文件:
+            1 在cmd输入sqlite3 数据库名.db,如sqlite3 hkz.db,进入数据库hkz.db中
+            2 >输入.read data.sql,执行脚本
+</pre>
 
-    declare
-    num number;
-begin
-  select count(1) into num from user_tables where table_name = upper('T_XIAOSHOU') ;
-  if num > 0 then
-      execute immediate 'drop table T_XIAOSHOU' ;
-  end if;
-end;
-
-
+<pre>
 CREATE TABLE T_XIAOSHOU(
   DALEIBIANHAO        NUMBER(11),
   DALEIMINGCHENG      CHAR(100),
