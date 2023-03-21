@@ -1,29 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>第6次课pandas操作数据库sqlite3</title>
-</head>
-<body>
-    <pre>
-        1 复习pandas操作excel文件，pandas操作csv,html等
-        2 sqlite3安装、基本语法
-        3 pandas操作sqlite3
-    </pre>
-
-<pre>
-      将下列数据保存到data.sql文件中，格式为utf-8。
-      使用sqlite3命令执行data.sql文件:
-            1 在cmd输入sqlite3 数据库名.db,如sqlite3 hkz.db,进入数据库hkz.db中
-            2 >输入.read data.sql,执行脚本
-            <a target="_blank" href="data.sql">下载数据data.sql</a>
-            <a target="_blank" href="shop.db">下载据库文件shop.db</a>数据来自data.sql文件的执行结果
-        
-</pre>
-
-<pre>
 CREATE TABLE T_XIAOSHOU(
   DALEIBIANHAO        NUMBER(11),
   DALEIMINGCHENG      CHAR(100),
@@ -2042,6 +2016,3 @@ INSERT INTO T_XIAOSHOU
 INSERT INTO T_XIAOSHOU
       VALUES(53,'文具办公用品',5301,'笔类',530104,'笔芯',1040625,'晨光超值中性替芯１２支',10,95,81.197);
 SELECT * FROM T_XIAOSHOU;
-</pre>
-</body>
-</html>
